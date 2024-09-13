@@ -1,0 +1,28 @@
+2024-03-19T15:41:06.5850264-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2024-03-19T15:41:06.6039224-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2024-03-19T15:41:06.6364662-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-19T15:41:06.6901094-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-03-19T15:41:06.7046652-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApi\PaymaticApi" (b5d60022)
+2024-03-19T15:45:51.5263616-03:00 0HN288J5E284U:00000003 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-12-12T17:02:50.167","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzEwODczOTUwLCJleHAiOjE3MTA4NzU3NTAsImlhdCI6MTcxMDg3Mzk1MCwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.4XhKZM1wo4rD7lE0-P2f27UlE-VhcgJvU28R-UbLL4o","TokenRecuperacion":"dd7211f8d4f445bcb8a36eed7f74e81c","CodigoEdificio":null,"StatusCode":201,"Errores":null} (55e848a7)
+2024-03-19T15:45:58.7556584-03:00 0HN288J5E284U:0000000B [ERR] Problemas al ObtenerDashboard , Error : Invalid column name 'codigoConvenio'.
+Invalid column name 'codigoConvenio'. (c900828a)
+2024-03-19T15:45:58.9423745-03:00 0HN288J5E284U:0000000B [ERR] Error DashboardController.GetDashboard    at Cl.Intertrade.ActivPay.ActivPayApi.Data.Dashboard.DashboardService.ObtieneDashboard(DashboardRequest dashboardRequest) in C:\ResposBitBucket\ActivPayApi\PaymaticApi\Data\Dashboard\DashboardService.cs:line 61
+   at Cl.Intertrade.ActivPayApi.Controllers.Dashboard.DashboardController.GetDashboard(DashboardRequest dashboardRequest) in C:\ResposBitBucket\ActivPayApi\PaymaticApi\Controllers\Dashboard\DashboardController.cs:line 32 (1ab0f4fc)
+2024-03-19T15:46:40.7152505-03:00 0HN288J5E284U:0000004F [ERR] Problemas al ObtenerDashboard , Error : Invalid column name 'codigoConvenio'.
+Invalid column name 'codigoConvenio'. (c900828a)
+2024-03-19T15:46:40.7543850-03:00 0HN288J5E284U:0000004F [ERR] Error DashboardController.GetDashboard    at Cl.Intertrade.ActivPay.ActivPayApi.Data.Dashboard.DashboardService.ObtieneDashboard(DashboardRequest dashboardRequest) in C:\ResposBitBucket\ActivPayApi\PaymaticApi\Data\Dashboard\DashboardService.cs:line 61
+   at Cl.Intertrade.ActivPayApi.Controllers.Dashboard.DashboardController.GetDashboard(DashboardRequest dashboardRequest) in C:\ResposBitBucket\ActivPayApi\PaymaticApi\Controllers\Dashboard\DashboardController.cs:line 32 (1ab0f4fc)
+2024-03-19T15:48:57.3329879-03:00 0HN288J5E284U:00000063 [ERR] Problemas al ObtenerDashboard , Error : Invalid column name 'codigoConvenio'.
+Invalid column name 'codigoConvenio'. (c900828a)
+2024-03-19T15:48:57.3820888-03:00 0HN288J5E284U:00000063 [ERR] Error DashboardController.GetDashboard    at Cl.Intertrade.ActivPay.ActivPayApi.Data.Dashboard.DashboardService.ObtieneDashboard(DashboardRequest dashboardRequest) in C:\ResposBitBucket\ActivPayApi\PaymaticApi\Data\Dashboard\DashboardService.cs:line 61
+   at Cl.Intertrade.ActivPayApi.Controllers.Dashboard.DashboardController.GetDashboard(DashboardRequest dashboardRequest) in C:\ResposBitBucket\ActivPayApi\PaymaticApi\Controllers\Dashboard\DashboardController.cs:line 32 (1ab0f4fc)
+2024-03-19T15:55:35.6994502-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2024-03-19T15:55:35.7181866-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2024-03-19T15:55:35.7444310-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-19T15:55:35.7478464-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-03-19T15:55:35.7511806-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApi\PaymaticApi" (b5d60022)
+2024-03-19T16:04:47.5625256-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2024-03-19T16:04:47.5786204-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2024-03-19T16:04:47.6104726-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-03-19T16:04:47.6136515-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-03-19T16:04:47.6170260-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApi\PaymaticApi" (b5d60022)

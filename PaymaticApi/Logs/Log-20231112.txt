@@ -1,0 +1,5 @@
+2023-11-12T23:58:36.3746046-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-12T23:58:36.3900839-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-12T23:58:36.4242077-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-12T23:58:36.4276363-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-12T23:58:36.4315297-03:00  [INF] Content root path: "C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi" (b5d60022)

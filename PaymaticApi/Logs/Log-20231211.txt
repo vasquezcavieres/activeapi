@@ -1,0 +1,629 @@
+2023-12-11T22:17:14.5471940-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-11T22:17:14.5637006-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-11T22:17:14.6029455-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-11T22:17:14.6066457-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-11T22:17:14.6097703-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-11T22:22:51.0623514-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-11T22:22:51.0725070-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-11T22:22:51.1009998-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-11T22:22:51.1046831-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-11T22:22:51.1074399-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-11T22:36:04.3387894-03:00 0HMVQMAP6P7O4:00000003 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-11-08T14:22:48.87","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAyMzQ0OTYzLCJleHAiOjE3MDIzNDY3NjMsImlhdCI6MTcwMjM0NDk2MywiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.XGr5CK2k7cPF9HH160RVLjed_RPyvNSgGEPeoXcIPVU","TokenRecuperacion":"","StatusCode":201,"Errores":null} (004b7dde)
+2023-12-11T22:56:01.7463981-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-11T22:56:01.7625209-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-11T22:56:01.8342238-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-11T22:56:01.8473508-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-11T22:56:01.8546429-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-11T23:03:01.8613452-03:00 0HMVQMPF2O13J:00000017 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.Post(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Edificio\EdificioController.cs:line 158
+   at lambda_method12(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-11T23:04:54.9968336-03:00 0HMVQMPF2O13J:00000027 [ERR] EdificioService: Must declare the scalar variable "@CodigoEdificio".,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225 (51b3b4a4)
+2023-12-11T23:04:55.0583266-03:00 0HMVQMPF2O13J:00000027 [ERR] Error EdificioController.HttpPost    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.Post(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Edificio\EdificioController.cs:line 151 (34949be4)
+2023-12-11T23:05:32.5401481-03:00 0HMVQMPF2O13J:00000037 [ERR] EdificioService: Must declare the scalar variable "@CodigoEdificio".,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225 (51b3b4a4)
+2023-12-11T23:05:32.5856413-03:00 0HMVQMPF2O13J:00000037 [ERR] Error EdificioController.HttpPost    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.Post(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Edificio\EdificioController.cs:line 151 (34949be4)
+2023-12-11T23:06:26.3522923-03:00 0HMVQMPF2O13J:0000003B [ERR] EdificioService: Must declare the scalar variable "@CodigoEdificio".,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225 (51b3b4a4)
+2023-12-11T23:06:26.4011081-03:00 0HMVQMPF2O13J:0000003B [ERR] Error EdificioController.HttpPost    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.Post(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Edificio\EdificioController.cs:line 151 (34949be4)
+2023-12-11T23:07:53.4488418-03:00 0HMVQMPF2O13J:0000003F [ERR] EdificioService: Must declare the scalar variable "@CodigoEdificio".,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225 (51b3b4a4)
+2023-12-11T23:07:53.4951936-03:00 0HMVQMPF2O13J:0000003F [ERR] Error EdificioController.HttpPost    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.Post(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Edificio\EdificioController.cs:line 151 (34949be4)
+2023-12-11T23:08:01.5729044-03:00 0HMVQMPF2O13J:00000043 [ERR] EdificioService: Must declare the scalar variable "@CodigoEdificio".,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225 (51b3b4a4)
+2023-12-11T23:08:01.6172546-03:00 0HMVQMPF2O13J:00000043 [ERR] Error EdificioController.HttpPost    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.Post(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Edificio\EdificioController.cs:line 151 (34949be4)
+2023-12-11T23:08:13.8409176-03:00 0HMVQMPF2O13J:0000004B [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-11-08T14:22:48.87","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAyMzQ2ODkzLCJleHAiOjE3MDIzNDg2OTMsImlhdCI6MTcwMjM0Njg5MywiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.-u9Uv8n3Woe6YwTCBvdGbPc_lC5RQRCKMhugy_pR_7c","TokenRecuperacion":"","StatusCode":201,"Errores":null} (2ad7a99c)
+2023-12-11T23:22:12.7308273-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-11T23:22:12.7451436-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-11T23:22:12.7770547-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-11T23:22:12.7819579-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-11T23:22:12.7843505-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-11T23:24:54.7608477-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-11T23:24:54.7721149-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-11T23:24:54.7989869-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-11T23:24:54.8034043-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-11T23:24:54.8059391-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-11T23:25:59.3144820-03:00 0HMVQN64ULEOV:0000000F [ERR] EdificioService: Violation of PRIMARY KEY constraint 'PK_Edficio'. Cannot insert duplicate key in object 'dbo.Edificio'. The duplicate key value is (Edificio1).
+The statement has been terminated.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 241 (6b590eb1)
+2023-12-11T23:25:59.3605419-03:00 0HMVQN64ULEOV:0000000F [ERR] Error EdificioController.HttpPost    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 241
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.Post(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Edificio\EdificioController.cs:line 151 (ef04cc5c)
+2023-12-11T23:40:19.1753029-03:00 0HMVQN64ULEOV:00000091 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-11-08T14:22:48.87","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAyMzQ4ODE4LCJleHAiOjE3MDIzNTA2MTgsImlhdCI6MTcwMjM0ODgxOCwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.Fb4_2Epj7ROmCgK-FYWBKLKbllnwmUoQKgD7_d2htmo","TokenRecuperacion":"","StatusCode":201,"Errores":null} (f8fd0369)
+2023-12-11T23:40:33.4653146-03:00 0HMVQN64ULEOV:000000B3 [ERR] EdificioService: Object reference not set to an instance of an object.,    at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 234 (53dd22db)
+2023-12-11T23:40:34.2866933-03:00 0HMVQN64ULEOV:000000B3 [ERR] Error EdificioController.HttpPost    at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 234
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.Post(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Edificio\EdificioController.cs:line 151 (2aa68a3a)
+2023-12-11T23:41:55.7639331-03:00 0HMVQN64ULEP0:00000003 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-11-08T14:22:48.87","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAyMzQ4OTE1LCJleHAiOjE3MDIzNTA3MTUsImlhdCI6MTcwMjM0ODkxNSwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.woEA6ZLQwhF9HXF8Mtemz5vbXfKsyYDo7q3PItEwwUs","TokenRecuperacion":"","StatusCode":201,"Errores":null} (233cdce4)
+2023-12-11T23:42:49.1716462-03:00 0HMVQN64ULEP0:00000067 [ERR] ConvenioService: Ambiguous column name 'NumeroCuenta'.
+Ambiguous column name 'TipoCuenta'.
+Ambiguous column name 'Banco'.
+Ambiguous column name 'CorreoContacto'.
+Ambiguous column name 'EmailNotificacion'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioRepository.cs:line 108
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioService.cs:line 141 (d51cf0ab)
+2023-12-11T23:42:49.2190460-03:00 0HMVQN64ULEP0:00000067 [ERR] Error ConvenioController.Get    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioRepository.cs:line 108
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioService.cs:line 141
+   at Cl.Intertrade.ActivPay.Controllers.Convenio.ConvenioController.LeerPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Convenio\ConvenioController.cs:line 114 (138fccd8)
+2023-12-11T23:43:06.6624498-03:00 0HMVQN64ULEP0:00000089 [ERR] ConvenioService: Ambiguous column name 'NumeroCuenta'.
+Ambiguous column name 'TipoCuenta'.
+Ambiguous column name 'Banco'.
+Ambiguous column name 'CorreoContacto'.
+Ambiguous column name 'EmailNotificacion'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioRepository.cs:line 108
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioService.cs:line 141 (d51cf0ab)
+2023-12-11T23:43:06.7144756-03:00 0HMVQN64ULEP0:00000089 [ERR] Error ConvenioController.Get    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioRepository.cs:line 108
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioService.cs:line 141
+   at Cl.Intertrade.ActivPay.Controllers.Convenio.ConvenioController.LeerPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Convenio\ConvenioController.cs:line 114 (138fccd8)
+2023-12-11T23:43:24.2111237-03:00 0HMVQN64ULEP0:00000099 [ERR] ConvenioService: Ambiguous column name 'NumeroCuenta'.
+Ambiguous column name 'TipoCuenta'.
+Ambiguous column name 'Banco'.
+Ambiguous column name 'CorreoContacto'.
+Ambiguous column name 'EmailNotificacion'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioRepository.cs:line 108
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioService.cs:line 141 (d51cf0ab)
+2023-12-11T23:43:24.2830447-03:00 0HMVQN64ULEP0:00000099 [ERR] Error ConvenioController.Get    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioRepository.cs:line 108
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioService.cs:line 141
+   at Cl.Intertrade.ActivPay.Controllers.Convenio.ConvenioController.LeerPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Convenio\ConvenioController.cs:line 114 (138fccd8)
+2023-12-11T23:44:20.2896365-03:00 0HMVQN64ULEP0:000000A9 [ERR] ConvenioService: Ambiguous column name 'NumeroCuenta'.
+Ambiguous column name 'TipoCuenta'.
+Ambiguous column name 'Banco'.
+Ambiguous column name 'CorreoContacto'.
+Ambiguous column name 'EmailNotificacion'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioRepository.cs:line 108
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioService.cs:line 141 (d51cf0ab)
+2023-12-11T23:44:20.3564365-03:00 0HMVQN64ULEP0:000000A9 [ERR] Error ConvenioController.Get    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioRepository.cs:line 108
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Convenio\ConvenioService.cs:line 141
+   at Cl.Intertrade.ActivPay.Controllers.Convenio.ConvenioController.LeerPorEdificio(String codigoEdificio) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Convenio\ConvenioController.cs:line 114 (138fccd8)
+2023-12-11T23:46:20.2530050-03:00 0HMVQN64ULEP0:000000B7 [ERR] ConvenioService: Ambiguous column name 'CorreoContacto'.
+Ambiguous column name 'EmailNotificacion'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio)
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) (1d9f2066)
+2023-12-11T23:46:20.3478766-03:00 0HMVQN64ULEP0:000000B7 [ERR] Error ConvenioController.Get    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio)
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio)
+   at Cl.Intertrade.ActivPay.Controllers.Convenio.ConvenioController.LeerPorEdificio(String codigoEdificio) (e03db835)
+2023-12-11T23:46:28.9464806-03:00 0HMVQN64ULEP0:000000C9 [ERR] ConvenioService: Ambiguous column name 'EmailNotificacion'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio)
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) (9eedf482)
+2023-12-11T23:46:28.9994045-03:00 0HMVQN64ULEP0:000000C9 [ERR] Error ConvenioController.Get    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio)
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio)
+   at Cl.Intertrade.ActivPay.Controllers.Convenio.ConvenioController.LeerPorEdificio(String codigoEdificio) (e03db835)
+2023-12-11T23:46:51.2503762-03:00 0HMVQN64ULEP0:000000D9 [ERR] ConvenioService: Ambiguous column name 'EmailNotificacion'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio)
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio) (9eedf482)
+2023-12-11T23:46:51.3421752-03:00 0HMVQN64ULEP0:000000D9 [ERR] Error ConvenioController.Get    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1254
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Convenio.ConvenioRepository.ObtenerConvenioPorEdificio(String codigoEdificio)
+   at Cl.Intertrade.ActivPay.Data.Convenio.ConvenioService.ObtenerConvenioPorEdificio(String codigoEdificio)
+   at Cl.Intertrade.ActivPay.Controllers.Convenio.ConvenioController.LeerPorEdificio(String codigoEdificio) (e03db835)
+2023-12-11T23:54:30.2602799-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-11T23:54:30.2709601-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-11T23:54:30.2986618-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-11T23:54:30.3035268-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-11T23:54:30.3061961-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-11T23:55:35.3579290-03:00 0HMVQNMTSR97P:00000025 [ERR] EdificioService: Incorrect syntax near ','.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados() in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 61
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados() in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 98 (bc67117f)
+2023-12-11T23:55:40.6378600-03:00 0HMVQNMTSR97P:00000025 [ERR] Error EdificioController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados() in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 61
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados() in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 98
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.GetAllAsociados() in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Edificio\EdificioController.cs:line 72 (e54a016f)
+2023-12-11T23:56:03.8174915-03:00 0HMVQNMTSR97P:00000037 [ERR] EdificioService: Ambiguous column name 'Direccion'.
+Ambiguous column name 'Comuna'.
+Ambiguous column name 'RutRazonSocial'.
+Ambiguous column name 'NumeroCuenta'.
+Ambiguous column name 'TipoCuenta'.
+Invalid column name 'CodigoBancoBanco'.
+Ambiguous column name 'CorreoContacto'.
+Ambiguous column name 'EmailNotificacion'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados() (29850eb8)
+2023-12-11T23:56:03.8765729-03:00 0HMVQNMTSR97P:00000037 [ERR] Error EdificioController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.GetAllAsociados() (f2b2f37e)
+2023-12-11T23:56:37.2951018-03:00 0HMVQNMTSR97P:0000004B [ERR] EdificioService: Ambiguous column name 'Direccion'.
+Ambiguous column name 'Comuna'.
+Ambiguous column name 'RutRazonSocial'.
+Invalid column name 'CodigoBancoBanco'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados() (886382af)
+2023-12-11T23:56:37.3432515-03:00 0HMVQNMTSR97P:0000004B [ERR] Error EdificioController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.GetAllAsociados() (f2b2f37e)
+2023-12-11T23:56:56.2337572-03:00 0HMVQNMTSR97P:0000005F [ERR] EdificioService: Ambiguous column name 'Direccion'.
+Ambiguous column name 'Comuna'.
+Ambiguous column name 'RutRazonSocial'.
+Invalid column name 'CodigoBancoBanco'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados() (886382af)
+2023-12-11T23:56:56.2953204-03:00 0HMVQNMTSR97P:0000005F [ERR] Error EdificioController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.GetAllAsociados() (f2b2f37e)
+2023-12-11T23:57:41.8282640-03:00 0HMVQNMTSR97P:00000075 [ERR] EdificioService: Invalid column name 'CodigoBancoBanco'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados() (53019f9e)
+2023-12-11T23:57:41.9255322-03:00 0HMVQNMTSR97P:00000075 [ERR] Error EdificioController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.GetAllAsociados() (f2b2f37e)
+2023-12-11T23:58:14.0197812-03:00 0HMVQNMTSR97P:00000087 [ERR] EdificioService: Invalid column name 'CodigoBancoBanco'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados() (53019f9e)
+2023-12-11T23:58:14.2263171-03:00 0HMVQNMTSR97P:00000087 [ERR] Error EdificioController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.ObtenerEdificiosAsociados()
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.GetAllAsociados() (f2b2f37e)

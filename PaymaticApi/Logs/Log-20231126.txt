@@ -1,0 +1,120 @@
+2023-11-26T21:06:22.8925845-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-26T21:06:22.9075605-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-26T21:06:22.9552873-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-26T21:06:22.9586312-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-26T21:06:22.9625056-03:00  [INF] Content root path: "C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi" (b5d60022)
+2023-11-26T21:07:57.4396440-03:00 0HMVERJGUAQ5V:00000007 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"ecab18d927b84931993a25490ba5b8ed","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"CHILE","CodigoRol":"USUARIO","Nombres":"Cristopher","Apellidos":"Araya","Email":"convenio1@gmail.com","Telefono":973030388,"Clave":" ,?b?Y\u0007[?K\u0007\u0015-#Kp","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-08T16:01:32.673","FechaActualizacion":"1900-01-01T00:00:00","Activo":false,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAxMDQzNjc2LCJleHAiOjE3MDEwNDU0NzYsImlhdCI6MTcwMTA0MzY3NiwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.h6v-mTUhcQ9jxUt3ovDnk3xO_oC2ZO0Nr_fr-Vadinw","TokenRecuperacion":null,"StatusCode":201,"Errores":null} (32565717)
+2023-11-26T21:16:39.4179868-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-26T21:16:39.4342450-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-26T21:16:39.4695070-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-26T21:16:39.4735826-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-26T21:16:39.4773863-03:00  [INF] Content root path: "C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi" (b5d60022)
+2023-11-26T21:42:39.8155135-03:00 0HMVERQ5PJIHT:00000069 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"ecab18d927b84931993a25490ba5b8ed","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"CHILE","CodigoRol":"USUARIO","Nombres":"Cristopher","Apellidos":"Araya","Email":"convenio1@gmail.com","Telefono":973030388,"Clave":" ,?b?Y\u0007[?K\u0007\u0015-#Kp","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-08T16:01:32.673","FechaActualizacion":"1900-01-01T00:00:00","Activo":false,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAxMDQ1NzU5LCJleHAiOjE3MDEwNDc1NTksImlhdCI6MTcwMTA0NTc1OSwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.-olKPWHLrWGdcQ2W4rPRFJWxyjcRv1W4lDskUOG92_k","TokenRecuperacion":null,"StatusCode":201,"Errores":null} (8feeb054)
+2023-11-26T21:43:54.4926489-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-26T21:43:54.5088262-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-26T21:43:54.5369137-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-26T21:43:54.5407453-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-26T21:43:54.5438042-03:00  [INF] Content root path: "C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi" (b5d60022)
+2023-11-26T21:51:59.4363506-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-26T21:51:59.4518987-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-26T21:51:59.4865827-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-26T21:51:59.4910860-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-26T21:51:59.4961290-03:00  [INF] Content root path: "C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi" (b5d60022)
+2023-11-26T22:01:33.0239387-03:00 0HMVESCR3K34B:00000085 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-11-08T14:22:48.87","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAxMDQ2ODkyLCJleHAiOjE3MDEwNDg2OTIsImlhdCI6MTcwMTA0Njg5MiwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.JiQHHrJDHP2WJM5SZDaAzt7KS8-NXvfDPtS_q0ka3UQ","TokenRecuperacion":"","StatusCode":201,"Errores":null} (cdc56283)
+2023-11-26T22:04:22.9705143-03:00 0HMVESCR3K34B:000000AD [ERR] PagoService: Object reference not set to an instance of an object.,    at Cl.Intertrade.ActivPay.Repository.Pago.PagoRepository.ObtenerPagos(PagoModel pagoModel) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Pago\PagoRepository.cs:line 57
+   at Cl.Intertrade.ActivPay.Data.Pago.PagoService.ObtenerPagos(PagoRequest pagoRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Pago\PagoService.cs:line 68 (0d40cac0)
+2023-11-26T22:04:24.2633213-03:00 0HMVESCR3K34B:000000AD [ERR] Error PagoController.GetAll    at Cl.Intertrade.ActivPay.Repository.Pago.PagoRepository.ObtenerPagos(PagoModel pagoModel) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Pago\PagoRepository.cs:line 57
+   at Cl.Intertrade.ActivPay.Data.Pago.PagoService.ObtenerPagos(PagoRequest pagoRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Pago\PagoService.cs:line 68
+   at Cl.Intertrade.ActivPay.Controllers.Pago.PagoController.GetAll(PagoRequest pagoRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Controllers\Pago\PagoController.cs:line 77 (179dacb5)
+2023-11-26T22:07:53.7174012-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-26T22:07:53.7386876-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-26T22:07:53.7858849-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-26T22:07:53.8100105-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-26T22:07:53.8234280-03:00  [INF] Content root path: "C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi" (b5d60022)
+2023-11-26T22:08:08.5260171-03:00 0HMVESL54ECAU:00000003 [ERR] PagoService: Object reference not set to an instance of an object.,    at Cl.Intertrade.ActivPay.Repository.Pago.PagoRepository.ObtenerPagos(PagoModel pagoModel) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Pago\PagoRepository.cs:line 57
+   at Cl.Intertrade.ActivPay.Data.Pago.PagoService.ObtenerPagos(PagoRequest pagoRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Pago\PagoService.cs:line 68 (0d40cac0)
+2023-11-26T22:08:10.8316145-03:00 0HMVESL54ECAU:00000003 [ERR] Error PagoController.GetAll    at Cl.Intertrade.ActivPay.Repository.Pago.PagoRepository.ObtenerPagos(PagoModel pagoModel) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Pago\PagoRepository.cs:line 57
+   at Cl.Intertrade.ActivPay.Data.Pago.PagoService.ObtenerPagos(PagoRequest pagoRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Pago\PagoService.cs:line 68
+   at Cl.Intertrade.ActivPay.Controllers.Pago.PagoController.GetAll(PagoRequest pagoRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Controllers\Pago\PagoController.cs:line 77 (179dacb5)
+2023-11-26T22:10:10.3443702-03:00 0HMVESL54ECAU:00000013 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"ecab18d927b84931993a25490ba5b8ed","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"CHILE","CodigoRol":"USUARIO","Nombres":"Cristopher","Apellidos":"Araya","Email":"convenio1@gmail.com","Telefono":973030388,"Clave":" ,?b?Y\u0007[?K\u0007\u0015-#Kp","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-08T16:01:32.673","FechaActualizacion":"1900-01-01T00:00:00","Activo":false,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAxMDQ3NDA5LCJleHAiOjE3MDEwNDkyMDksImlhdCI6MTcwMTA0NzQwOSwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.UdEuffNgdxqcdtZceRMNgvENaBPkkom61YxbSXjwVAo","TokenRecuperacion":null,"StatusCode":201,"Errores":null} (90d147d0)
+2023-11-26T22:21:43.2154484-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-26T22:21:43.2391012-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-26T22:21:43.2708161-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-26T22:21:43.2816565-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-26T22:21:43.2849804-03:00  [INF] Content root path: "C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi" (b5d60022)
+2023-11-26T22:27:26.5707037-03:00 0HMVEST1IG5HL:0000001F [ERR] TransferenciaService: Incorrect syntax near the keyword 'WHERE'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Transferencia.TransferenciaRepository.ObtenerTransferencias(TransferenciaModel transferenciaModel) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Transferencia\TransferenciaRepository.cs:line 195
+   at Cl.Intertrade.ActivPay.Data.Transferencia.TransferenciaService.ObtenerTransferencias(TransferenciaRequest transferenciaRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Transferencia\TransferenciaService.cs:line 57 (dedf44ec)
+2023-11-26T22:27:26.6599974-03:00 0HMVEST1IG5HL:0000001F [ERR] Error TransferenciaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Transferencia.TransferenciaRepository.ObtenerTransferencias(TransferenciaModel transferenciaModel) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Transferencia\TransferenciaRepository.cs:line 195
+   at Cl.Intertrade.ActivPay.Data.Transferencia.TransferenciaService.ObtenerTransferencias(TransferenciaRequest transferenciaRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Transferencia\TransferenciaService.cs:line 57
+   at Cl.Intertrade.ActivPay.Controllers.Transferencia.TransferenciaController.GetAll(TransferenciaRequest transferenciaRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Controllers\Transferencia\TransferenciaController.cs:line 71 (76f6b04a)
+2023-11-26T22:27:49.8621122-03:00 0HMVEST1IG5HL:00000027 [ERR] TransferenciaService: Incorrect syntax near the keyword 'WHERE'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Transferencia.TransferenciaRepository.ObtenerTransferencias(TransferenciaModel transferenciaModel) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Transferencia\TransferenciaRepository.cs:line 195
+   at Cl.Intertrade.ActivPay.Data.Transferencia.TransferenciaService.ObtenerTransferencias(TransferenciaRequest transferenciaRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Transferencia\TransferenciaService.cs:line 57 (dedf44ec)
+2023-11-26T22:27:53.5438995-03:00 0HMVEST1IG5HL:00000027 [ERR] Error TransferenciaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Transferencia.TransferenciaRepository.ObtenerTransferencias(TransferenciaModel transferenciaModel) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Transferencia\TransferenciaRepository.cs:line 195
+   at Cl.Intertrade.ActivPay.Data.Transferencia.TransferenciaService.ObtenerTransferencias(TransferenciaRequest transferenciaRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Data\Transferencia\TransferenciaService.cs:line 57
+   at Cl.Intertrade.ActivPay.Controllers.Transferencia.TransferenciaController.GetAll(TransferenciaRequest transferenciaRequest) in C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\ActivPay\ActivPayApi\ActivPayApi\ActivPayApi\Controllers\Transferencia\TransferenciaController.cs:line 71 (76f6b04a)
+2023-11-26T22:28:47.7360963-03:00 0HMVEST1IG5HL:00000033 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-11-08T14:22:48.87","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAxMDQ4NTI3LCJleHAiOjE3MDEwNTAzMjcsImlhdCI6MTcwMTA0ODUyNywiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.VLV9J85OzC9RffpLWggMIIARdVbHrycepYIhsUYgh9g","TokenRecuperacion":"","StatusCode":201,"Errores":null} (b4dfdc22)
+2023-11-26T22:46:15.3620157-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-26T22:46:15.3700267-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-26T22:46:15.3920286-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-26T22:46:15.3962322-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-26T22:46:15.3990225-03:00  [INF] Content root path: "C:\Users\crist\OneDrive\Documentos\CODEBASE\Desarrollos\paymatic\PaymaticApi\PaymaticApi\PaymaticApi" (b5d60022)

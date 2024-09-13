@@ -1,0 +1,5 @@
+2024-08-08T18:16:40.5908354-04:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2024-08-08T18:16:40.6034490-04:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2024-08-08T18:16:40.6236359-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2024-08-08T18:16:40.6265318-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2024-08-08T18:16:40.6285600-04:00  [INF] Content root path: "C:\Users\Crislord\Documents\CODEBASE\Fuentes\ActivPay\ActivPayApi\PaymaticApi" (b5d60022)

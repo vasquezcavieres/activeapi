@@ -1,0 +1,66 @@
+2023-11-27T15:45:52.6407263-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-27T15:45:52.6515496-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-27T15:45:52.6889942-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-27T15:45:52.6924019-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-27T15:45:52.6952207-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-11-27T15:48:30.5037187-03:00 0HMVFF5B0D0EQ:00000003 [ERR] UsuarioService: Cannot open database "ActivPay" requested by the login. The login failed.
+Login failed for user 'cotizador'.,    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Dapper.SqlMapper.QueryRowImpl[T](IDbConnection cnn, Row row, CommandDefinition& command, Type effectiveType) in /_/Dapper/SqlMapper.cs:line 1253
+   at Dapper.SqlMapper.QueryFirstOrDefault[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 841
+   at Cl.Intertrade.ActivPay.Repository.Usuario.UsuarioRepository.Login(UsuarioModel usuarioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Usuario\UsuarioRepository.cs:line 147
+   at Cl.Intertrade.ActivPay.Data.Usuario.UsuarioService.Login(UsuarioRequest usuarioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Usuario\UsuarioService.cs:line 222 (bda178c9)
+2023-11-27T15:48:30.5986595-03:00 0HMVFF5B0D0EQ:00000003 [ERR] Error UsuarioController.HttpPost    at Cl.Intertrade.ActivPay.Data.Usuario.UsuarioService.Login(UsuarioRequest usuarioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Usuario\UsuarioService.cs:line 274
+   at Cl.Intertrade.ActivPay.Controllers.Usuario.UsuarioController.PostLogin(UsuarioRequest usuarioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Usuario\UsuarioController.cs:line 147 (629f7ed7)
+2023-11-27T15:50:48.0041300-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-27T15:50:48.0204125-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-27T15:50:48.0540766-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-27T15:50:48.0586786-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-27T15:50:48.0614550-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-11-27T15:51:04.1813916-03:00 0HMVFF76ONQSS:00000003 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"ecab18d927b84931993a25490ba5b8ed","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"CHILE","CodigoRol":"USUARIO","Nombres":"Cristopher","Apellidos":"Araya","Email":"convenio1@gmail.com","Telefono":973030388,"Clave":" ,?b?Y\u0007[?K\u0007\u0015-#Kp","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-08T16:01:32.673","FechaActualizacion":"1900-01-01T00:00:00","Activo":false,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAxMTExMDYzLCJleHAiOjE3MDExMTI4NjMsImlhdCI6MTcwMTExMTA2MywiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.F0CfMjvbZ0RhUoZMWEvUrzjRyEpJhkgKEfeB2Mu4Ih0","TokenRecuperacion":null,"StatusCode":201,"Errores":null} (5c647551)
+2023-11-27T21:46:20.0515541-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-27T21:46:20.0597086-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-27T21:46:20.0725526-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-27T21:46:20.0760435-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-27T21:46:20.0786158-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-11-27T21:47:40.8300472-03:00 0HMVFLE4HH1EV:00000007 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-11-08T14:22:48.87","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAxMTMyNDYwLCJleHAiOjE3MDExMzQyNjAsImlhdCI6MTcwMTEzMjQ2MCwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.v6fQprL2UswV_chu0dgSL8ZblKoX_mMuBkiq_Ea3le4","TokenRecuperacion":"","StatusCode":201,"Errores":null} (27c17516)
+2023-11-27T22:20:12.1732403-03:00 0HMVFLE4HH1EV:000000F7 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-11-08T14:22:48.87","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAxMTM0NDEyLCJleHAiOjE3MDExMzYyMTIsImlhdCI6MTcwMTEzNDQxMiwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.-M7YcCI3z3FfbmOQwugm0zRzl1FIUFyrljCmzfXeGAY","TokenRecuperacion":"","StatusCode":201,"Errores":null} (f08110e9)
+2023-11-27T22:27:55.3557568-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-11-27T22:27:55.3646759-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-11-27T22:27:55.3842310-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-11-27T22:27:55.3867680-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-11-27T22:27:55.3888511-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-11-27T22:30:37.0508828-03:00 0HMVFM5A6VLM7:00000007 [ERR] EdificioService: Implicit conversion from data type nvarchar to varbinary is not allowed. Use the CONVERT function to run this query.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225 (7704cb13)
+2023-11-27T22:30:37.1027082-03:00 0HMVFM5A6VLM7:00000007 [ERR] Error EdificioController.HttpPost    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Edificio.EdificioRepository.CrearEdificio(EdificioModel edificioModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioRepository.cs:line 102
+   at Cl.Intertrade.ActivPay.Data.Edificio.EdificioService.CrearEdificio(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Edificio\EdificioService.cs:line 225
+   at Cl.Intertrade.ActivPay.Controllers.Edificio.EdificioController.Post(EdificioRequest edificioRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Edificio\EdificioController.cs:line 151 (517e3f4f)

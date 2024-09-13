@@ -1,0 +1,519 @@
+2023-12-13T01:09:57.9647609-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-13T01:09:57.9724970-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-13T01:09:57.9940224-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-13T01:09:57.9959218-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-13T01:09:57.9976493-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-13T01:16:18.9328145-03:00 0HMVRI8NSA6HP:00000003 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"16b2a64bda2d4a559d56e83e011cd834","RutUsuario":17987987,"RutUsuarioDv":"5","CodigoPais":"CL","Pais":"CHILE","CodigoRol":"COMUNIDAD","Nombres":"demo","Apellidos":"demo","Email":"comunidad@comu.cl","Telefono":9787878787,"Clave":" ,?b?Y\u0007[?K\u0007\u0015-#Kp","UltimaClave":"P36P6Kad","DebeCambiarClave":false,"FechaCreacion":"2023-12-12T16:59:57.467","FechaActualizacion":"2023-12-12T16:59:57.493","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE3OTg3OTg3IiwibmJmIjoxNzAyNDQwOTc4LCJleHAiOjE3MDI0NDI3NzgsImlhdCI6MTcwMjQ0MDk3OCwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.degXYiXxVGQGGoTyYsQ9cxsGRkdcFGZBJFRD1KESyno","TokenRecuperacion":null,"CodigoEdificio":null,"StatusCode":201,"Errores":null} (7c2f8c6e)
+2023-12-13T01:19:21.2735364-03:00 0HMVRI8NSA6HP:0000002F [ERR] Problemas al ObtenerDashboard , Error : Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=29256; handshake=35;  (c7032457)
+2023-12-13T01:19:21.3710465-03:00 0HMVRI8NSA6HP:0000002F [ERR] Error DashboardController.GetDashboard    at Cl.Intertrade.ActivPay.ActivPayApi.Data.Dashboard.DashboardService.ObtieneDashboard(DashboardRequest dashboardRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Dashboard\DashboardService.cs:line 61
+   at Cl.Intertrade.ActivPayApi.Controllers.Dashboard.DashboardController.GetDashboard(DashboardRequest dashboardRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Dashboard\DashboardController.cs:line 32 (4846915a)
+2023-12-13T01:30:01.0226678-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-13T01:30:01.0308230-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-13T01:30:01.0572924-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-13T01:30:01.0603452-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-13T01:30:01.0625946-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-13T01:30:31.2958944-03:00 0HMVRIGTRK9U8:00000003 [ERR] FacturaService: Invalid column name 'NombreEdificio'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218 (0626b427)
+2023-12-13T01:30:31.3626267-03:00 0HMVRIGTRK9U8:00000003 [ERR] Error FacturaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218
+   at Cl.Intertrade.ActivPay.Controllers.Factura.FacturaController.GetAll(FacturaRequest pedidoBuscarRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Factura\FacturaController.cs:line 77 (dd639e52)
+2023-12-13T01:30:51.7452208-03:00 0HMVRIGTRK9U8:00000007 [ERR] FacturaService: Invalid column name 'NombreEdificio'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218 (0626b427)
+2023-12-13T01:30:51.8193296-03:00 0HMVRIGTRK9U8:00000007 [ERR] Error FacturaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218
+   at Cl.Intertrade.ActivPay.Controllers.Factura.FacturaController.GetAll(FacturaRequest pedidoBuscarRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Factura\FacturaController.cs:line 77 (dd639e52)
+2023-12-13T01:34:30.4557134-03:00 0HMVRIGTRK9U8:0000000B [ERR] FacturaService: Invalid column name 'NombreEdificio'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218 (0626b427)
+2023-12-13T01:34:30.5360600-03:00 0HMVRIGTRK9U8:0000000B [ERR] Error FacturaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218
+   at Cl.Intertrade.ActivPay.Controllers.Factura.FacturaController.GetAll(FacturaRequest pedidoBuscarRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Factura\FacturaController.cs:line 77 (dd639e52)
+2023-12-13T01:36:22.8445562-03:00 0HMVRIGTRK9U8:00000013 [ERR] FacturaService: Invalid column name 'NombreEdificio'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218 (0626b427)
+2023-12-13T01:36:22.9123188-03:00 0HMVRIGTRK9U8:00000013 [ERR] Error FacturaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218
+   at Cl.Intertrade.ActivPay.Controllers.Factura.FacturaController.GetAll(FacturaRequest pedidoBuscarRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Factura\FacturaController.cs:line 77 (dd639e52)
+2023-12-13T01:36:34.1917858-03:00 0HMVRIGTRK9U8:0000001F [ERR] FacturaService: Invalid column name 'NombreEdificio'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218 (0626b427)
+2023-12-13T01:36:34.3037941-03:00 0HMVRIGTRK9U8:0000001F [ERR] Error FacturaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218
+   at Cl.Intertrade.ActivPay.Controllers.Factura.FacturaController.GetAll(FacturaRequest pedidoBuscarRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Factura\FacturaController.cs:line 77 (dd639e52)
+2023-12-13T01:38:59.8110537-03:00 0HMVRIGTRK9U8:00000033 [ERR] FacturaService: Invalid column name 'NombreEdificio'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218 (0626b427)
+2023-12-13T01:38:59.8579233-03:00 0HMVRIGTRK9U8:00000033 [ERR] Error FacturaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218
+   at Cl.Intertrade.ActivPay.Controllers.Factura.FacturaController.GetAll(FacturaRequest pedidoBuscarRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Factura\FacturaController.cs:line 77 (dd639e52)
+2023-12-13T01:41:28.0996220-03:00 0HMVRIGTRK9U8:0000003F [ERR] FacturaService: Invalid column name 'NombreEdificio'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218 (0626b427)
+2023-12-13T01:41:28.1451922-03:00 0HMVRIGTRK9U8:0000003F [ERR] Error FacturaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218
+   at Cl.Intertrade.ActivPay.Controllers.Factura.FacturaController.GetAll(FacturaRequest pedidoBuscarRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Factura\FacturaController.cs:line 77 (dd639e52)
+2023-12-13T01:42:14.5065763-03:00 0HMVRIGTRK9UB:00000001 [ERR] FacturaService: Invalid column name 'NombreEdificio'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218 (0626b427)
+2023-12-13T01:42:14.6093502-03:00 0HMVRIGTRK9UB:00000001 [ERR] Error FacturaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218
+   at Cl.Intertrade.ActivPay.Controllers.Factura.FacturaController.GetAll(FacturaRequest pedidoBuscarRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Factura\FacturaController.cs:line 77 (dd639e52)
+2023-12-13T01:43:04.4145498-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-13T01:43:04.4233407-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-13T01:43:04.4476638-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-13T01:43:04.4503665-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-13T01:43:04.4535413-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-13T01:43:55.4139258-03:00 0HMVRIO28SPP3:0000000B [ERR] FacturaService: Invalid column name 'NombreEdificio'.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218 (0626b427)
+2023-12-13T01:43:55.4698480-03:00 0HMVRIO28SPP3:0000000B [ERR] Error FacturaController.GetAll    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1133
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1161
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 801
+   at DapperQueryBuilder.ICompleteCommandExtensions.Query[T](ICompleteCommand command, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Cl.Intertrade.ActivPay.Repository.Factura.FacturaRepository.BuscarFacturas(FacturaModel facturaModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaRepository.cs:line 159
+   at Cl.Intertrade.ActivPay.Data.Factura.FacturaService.BuscarFacturas(FacturaRequest facturaRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Factura\FacturaService.cs:line 218
+   at Cl.Intertrade.ActivPay.Controllers.Factura.FacturaController.GetAll(FacturaRequest pedidoBuscarRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Factura\FacturaController.cs:line 77 (dd639e52)
+2023-12-13T01:58:30.6697296-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-13T01:58:30.6798073-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-13T01:58:30.6996084-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-13T01:58:30.7021254-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-13T01:58:30.7053914-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-13T01:58:43.0633248-03:00 0HMVRJ0K614F4:00000007 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"16b2a64bda2d4a559d56e83e011cd834","RutUsuario":17987987,"RutUsuarioDv":"5","CodigoPais":"CL","Pais":"CHILE","CodigoRol":"COMUNIDAD","Nombres":"demo","Apellidos":"demo","Email":"comunidad@comu.cl","Telefono":9787878787,"Clave":" ,?b?Y\u0007[?K\u0007\u0015-#Kp","UltimaClave":"P36P6Kad","DebeCambiarClave":false,"FechaCreacion":"2023-12-12T16:59:57.467","FechaActualizacion":"2023-12-12T16:59:57.493","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE3OTg3OTg3IiwibmJmIjoxNzAyNDQzNTIyLCJleHAiOjE3MDI0NDUzMjIsImlhdCI6MTcwMjQ0MzUyMiwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.oIzjXZhCsgYstbSYU_bqB6AuQbUspLmWgaw1JofE5lY","TokenRecuperacion":null,"CodigoEdificio":null,"StatusCode":201,"Errores":null} (85ae5fad)
+2023-12-13T17:11:07.4624259-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-13T17:11:07.4932864-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-13T17:11:07.5492492-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-13T17:11:07.5682889-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-13T17:11:07.5736588-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-13T17:23:47.2486587-03:00 0HMVS313QPN81:00000033 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-12-12T17:02:50.167","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAyNDk5MDI2LCJleHAiOjE3MDI1MDA4MjYsImlhdCI6MTcwMjQ5OTAyNiwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.ZC7TVTz3cbST-Ssk-XZnUlltOhEgNdarl38iQgVNX2c","TokenRecuperacion":"dd7211f8d4f445bcb8a36eed7f74e81c","CodigoEdificio":null,"StatusCode":201,"Errores":null} (c89b4b3d)
+2023-12-13T17:26:43.5455664-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-13T17:26:43.5653119-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-13T17:26:43.5980200-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-13T17:26:43.6126379-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-13T17:26:43.6167471-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-13T17:26:57.2983513-03:00 0HMVS37B7NE76:00000003 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-12-12T17:02:50.167","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAyNDk5MjE2LCJleHAiOjE3MDI1MDEwMTYsImlhdCI6MTcwMjQ5OTIxNiwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.A65-u1nzwfeZpsa7B1KhmLKjHjmNYp02N-sEsmLKpA8","TokenRecuperacion":"dd7211f8d4f445bcb8a36eed7f74e81c","CodigoEdificio":null,"StatusCode":201,"Errores":null} (80535dae)
+2023-12-13T17:28:49.5711576-03:00 0HMVS37B7NE76:00000023 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"16b2a64bda2d4a559d56e83e011cd834","RutUsuario":17987987,"RutUsuarioDv":"5","CodigoPais":"CL","Pais":"CHILE","CodigoRol":"COMUNIDAD","Nombres":"demo","Apellidos":"demo","Email":"comunidad@comu.cl","Telefono":9787878787,"Clave":" ,?b?Y\u0007[?K\u0007\u0015-#Kp","UltimaClave":"P36P6Kad","DebeCambiarClave":false,"FechaCreacion":"2023-12-12T16:59:57.467","FechaActualizacion":"2023-12-12T16:59:57.493","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE3OTg3OTg3IiwibmJmIjoxNzAyNDk5MzI5LCJleHAiOjE3MDI1MDExMjksImlhdCI6MTcwMjQ5OTMyOSwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.8YFvQ_v6FcAwZa_l3NUsKKQqAajhGpXVg6NxZM3vGmU","TokenRecuperacion":null,"CodigoEdificio":null,"StatusCode":201,"Errores":null} (de132ea5)
+2023-12-13T17:35:04.0516294-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-13T17:35:04.0666182-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-13T17:35:04.1020643-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-13T17:35:04.1084128-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-13T17:35:04.1124240-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-13T17:35:39.6497691-03:00 0HMVS3C0NMA8U:0000000B [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-12-12T17:02:50.167","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAyNDk5NzM5LCJleHAiOjE3MDI1MDE1MzksImlhdCI6MTcwMjQ5OTczOSwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.tW9DuZ-FnQ_cTmaGkqoTdwqk2wQ50loa9AhX84ZEZd4","TokenRecuperacion":"dd7211f8d4f445bcb8a36eed7f74e81c","CodigoEdificio":null,"StatusCode":201,"Errores":null} (e3e1a3b6)
+2023-12-13T17:59:10.2897327-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-13T17:59:10.3064981-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-13T17:59:10.3423765-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-13T17:59:10.3468482-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-13T17:59:10.3506422-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-13T18:05:48.2287821-03:00 0HMVS3S5NBPI1:00000013 [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-12-12T17:02:50.167","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAyNTAxNTQ3LCJleHAiOjE3MDI1MDMzNDcsImlhdCI6MTcwMjUwMTU0NywiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.TGycCdS6xzZHfiKpfDC2_6-ZWbizFQBohfj5LHtBj9A","TokenRecuperacion":"dd7211f8d4f445bcb8a36eed7f74e81c","CodigoEdificio":null,"StatusCode":201,"Errores":null} (0d8ce30a)
+2023-12-13T18:39:12.6263971-03:00 0HMVS3S5NBPI1:0000008F [ERR] Login => : usuarioResult =>  {"TokenUsuario":"0ec8a756d10a45758ab51bdd5082b31c","RutUsuario":16985067,"RutUsuarioDv":"4","CodigoPais":"CL","Pais":"Chile","CodigoRol":"ADMINISTRADOR","Nombres":"Cristopher","Apellidos":"Araya","Email":"cristopher.araya@codebase.cl","Telefono":321654987,"Clave":"?\u0001?*?????|?*\u0004?)","UltimaClave":"","DebeCambiarClave":false,"FechaCreacion":"2023-11-01T00:00:00","FechaActualizacion":"2023-12-12T17:02:50.167","Activo":true,"TokenAcceso":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjE2OTg1MDY3IiwibmJmIjoxNzAyNTAzNTUyLCJleHAiOjE3MDI1MDUzNTIsImlhdCI6MTcwMjUwMzU1MiwiaXNzIjoiaHR0cDovL3d3dy5jb2RlYmFzZS5jbCIsImF1ZCI6Imh0dHA6Ly93d3cuY29kZWJhc2UuY2wifQ.MVkq0udoEG10WCCXgoXTKCvla8JUOx16d3JeXQ4S1as","TokenRecuperacion":"dd7211f8d4f445bcb8a36eed7f74e81c","CodigoEdificio":null,"StatusCode":201,"Errores":null} (ebb00e2b)
+2023-12-13T18:49:47.1027640-03:00 0HMVS3S5NBPI1:000000E1 [ERR] UfService: Violation of PRIMARY KEY constraint 'PK_Uf_1'. Cannot insert duplicate key in object 'dbo.Uf'. The duplicate key value is (2023-12-13).
+The statement has been terminated.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150 (0599a783)
+2023-12-13T18:49:49.4415964-03:00 0HMVS3S5NBPI1:000000E1 [ERR] Error UfController.HttpPost    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150
+   at Cl.Intertrade.ActivPay.Controllers.Uf.UfController.Post(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Uf\UfController.cs:line 124 (2b457667)
+2023-12-13T18:50:17.4704619-03:00 0HMVS3S5NBPI1:000000E5 [ERR] UfService: Violation of PRIMARY KEY constraint 'PK_Uf_1'. Cannot insert duplicate key in object 'dbo.Uf'. The duplicate key value is (2023-12-13).
+The statement has been terminated.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150 (0599a783)
+2023-12-13T18:50:17.5369858-03:00 0HMVS3S5NBPI1:000000E5 [ERR] Error UfController.HttpPost    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150
+   at Cl.Intertrade.ActivPay.Controllers.Uf.UfController.Post(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Controllers\Uf\UfController.cs:line 124 (2b457667)
+2023-12-13T18:53:23.6546564-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-13T18:53:23.6712291-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-13T18:53:23.7011131-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-13T18:53:23.7042898-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-13T18:53:23.7085486-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-13T18:53:39.4033248-03:00 0HMVS4NQDTDQL:00000003 [ERR] UfService: Violation of PRIMARY KEY constraint 'PK_Uf_1'. Cannot insert duplicate key in object 'dbo.Uf'. The duplicate key value is (2023-12-13).
+The statement has been terminated.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150 (0599a783)
+2023-12-13T18:54:10.0919783-03:00 0HMVS4NQDTDQL:00000011 [ERR] UfService: Violation of PRIMARY KEY constraint 'PK_Uf_1'. Cannot insert duplicate key in object 'dbo.Uf'. The duplicate key value is (2023-12-13).
+The statement has been terminated.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150 (0599a783)
+2023-12-13T18:54:57.3612803-03:00  [INF] Now listening on: "https://localhost:7196" (d826f4b8)
+2023-12-13T18:54:57.3696210-03:00  [INF] Now listening on: "http://localhost:5129" (d826f4b8)
+2023-12-13T18:54:57.3952890-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-12-13T18:54:57.3974090-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-12-13T18:54:57.3991323-03:00  [INF] Content root path: "C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi" (b5d60022)
+2023-12-13T18:55:09.8772249-03:00 0HMVS4OJASFG5:00000009 [ERR] UfService: Violation of PRIMARY KEY constraint 'PK_Uf_1'. Cannot insert duplicate key in object 'dbo.Uf'. The duplicate key value is (2023-12-13).
+The statement has been terminated.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150 (0599a783)
+2023-12-13T18:55:46.6858504-03:00 0HMVS4OJASFG5:00000011 [ERR] UfService: Violation of PRIMARY KEY constraint 'PK_Uf_1'. Cannot insert duplicate key in object 'dbo.Uf'. The duplicate key value is (2023-12-13).
+The statement has been terminated.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150 (0599a783)
+2023-12-13T18:56:23.7506372-03:00 0HMVS4OJASFG5:00000015 [ERR] UfService: Violation of PRIMARY KEY constraint 'PK_Uf_1'. Cannot insert duplicate key in object 'dbo.Uf'. The duplicate key value is (2023-12-13).
+The statement has been terminated.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150 (0599a783)
+2023-12-13T18:57:36.8789931-03:00 0HMVS4OJASFG5:0000001D [ERR] UfService: Violation of PRIMARY KEY constraint 'PK_Uf_1'. Cannot insert duplicate key in object 'dbo.Uf'. The duplicate key value is (2023-12-13).
+The statement has been terminated.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150 (0599a783)
+2023-12-13T18:58:05.4965090-03:00 0HMVS4OJASFG5:00000025 [ERR] UfService: Violation of PRIMARY KEY constraint 'PK_Uf_1'. Cannot insert duplicate key in object 'dbo.Uf'. The duplicate key value is (2023-12-13).
+The statement has been terminated.,    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader) in /_/Dapper/SqlMapper.cs:line 2928
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command) in /_/Dapper/SqlMapper.cs:line 648
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 519
+   at Cl.Intertrade.ActivPay.Repository.Uf.UfRepository.CrearUf(UfModel ufModel) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfRepository.cs:line 98
+   at Cl.Intertrade.ActivPay.Data.Uf.UfService.CrearUf(UfRequest ufRequest) in C:\ResposBitBucket\ActivPayApiProcesos\PaymaticApi\Data\Uf\UfService.cs:line 150 (0599a783)
