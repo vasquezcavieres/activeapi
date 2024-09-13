@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8+PGC+SImeNyyWIG/6UUxDgHyvGoHDVcg8YOfz67G8KqIZxSdlF9A/i26RTRPZD9T6FofVKHToyxqTnGIj3tdA==",
+  "dgSpecHash": "LKkyLRPVh+iBt6Si+f2yxiu19S1JAJ7xEoZiEzPSMW3m8PYCusDwGtuRMXVQo0/+DY9yZ/MZ4YKYGMaMH3A36Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Crislord\\Documents\\CODEBASE\\Fuentes\\ActivPay\\ActivPayApi\\PaymaticApi\\ActivPayApi.csproj",
+  "projectFilePath": "C:\\Users\\Crislord\\Desktop\\activeapi\\PaymaticApi\\ActivPayApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Crislord\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Crislord\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -130,6 +130,16 @@
     "C:\\Users\\Crislord\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"RestSharp\" 110.2.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-4rr6-2v9v-wcpc",
+      "libraryId": "RestSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
     {
       "code": "NU1903",
       "level": "Warning",

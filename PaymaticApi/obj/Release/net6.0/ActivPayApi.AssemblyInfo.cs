@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ActivPayApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6be05ebf2cbbbda224aaf914bf8425c7aed5da67")]
 [assembly: System.Reflection.AssemblyProductAttribute("ActivPayApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ActivPayApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

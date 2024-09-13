@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Crislord\\Documents\\CODEBASE\\Fuentes\\ActivPay\\ActivPayApi\\PaymaticApi\\ActivPayApi.csproj": {}
+    "C:\\Users\\Crislord\\Desktop\\activeapi\\PaymaticApi\\ActivPayApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Crislord\\Documents\\CODEBASE\\Fuentes\\ActivPay\\ActivPayApi\\PaymaticApi\\ActivPayApi.csproj": {
+    "C:\\Users\\Crislord\\Desktop\\activeapi\\PaymaticApi\\ActivPayApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Crislord\\Documents\\CODEBASE\\Fuentes\\ActivPay\\ActivPayApi\\PaymaticApi\\ActivPayApi.csproj",
+        "projectUniqueName": "C:\\Users\\Crislord\\Desktop\\activeapi\\PaymaticApi\\ActivPayApi.csproj",
         "projectName": "ActivPayApi",
-        "projectPath": "C:\\Users\\Crislord\\Documents\\CODEBASE\\Fuentes\\ActivPay\\ActivPayApi\\PaymaticApi\\ActivPayApi.csproj",
+        "projectPath": "C:\\Users\\Crislord\\Desktop\\activeapi\\PaymaticApi\\ActivPayApi.csproj",
         "packagesPath": "C:\\Users\\Crislord\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Crislord\\Documents\\CODEBASE\\Fuentes\\ActivPay\\ActivPayApi\\PaymaticApi\\obj\\",
+        "outputPath": "C:\\Users\\Crislord\\Desktop\\activeapi\\PaymaticApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Crislord\\AppData\\Roaming\\NuGet\\NuGet.Config",

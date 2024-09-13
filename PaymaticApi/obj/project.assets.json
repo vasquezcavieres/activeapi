@@ -6638,11 +6638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Crislord\\Documents\\CODEBASE\\Fuentes\\ActivPay\\ActivPayApi\\PaymaticApi\\ActivPayApi.csproj",
+      "projectUniqueName": "C:\\Users\\Crislord\\Desktop\\activeapi\\PaymaticApi\\ActivPayApi.csproj",
       "projectName": "ActivPayApi",
-      "projectPath": "C:\\Users\\Crislord\\Documents\\CODEBASE\\Fuentes\\ActivPay\\ActivPayApi\\PaymaticApi\\ActivPayApi.csproj",
+      "projectPath": "C:\\Users\\Crislord\\Desktop\\activeapi\\PaymaticApi\\ActivPayApi.csproj",
       "packagesPath": "C:\\Users\\Crislord\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Crislord\\Documents\\CODEBASE\\Fuentes\\ActivPay\\ActivPayApi\\PaymaticApi\\obj\\",
+      "outputPath": "C:\\Users\\Crislord\\Desktop\\activeapi\\PaymaticApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Crislord\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6761,6 +6761,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"RestSharp\" 110.2.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-4rr6-2v9v-wcpc",
+      "libraryId": "RestSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
     {
       "code": "NU1903",
       "level": "Warning",
